@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  font-family: myfont;
+}
+body{
+  background-image: url("bodybg.png");
+}
+.topnav {
+  margin-top: 3vh;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.644);
+  overflow: hidden;
+  background-color: transparent;
+
+  a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 2vw;
+  }
+  input[type="text"] {
+    background-color: transparent;
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 16px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  p {
+    font-size: 50;
+    display: inline;
+    margin-left: 23vw;
+    color: rgb(105, 68, 68);
+  }
+  img {
+    display: inline;
+    height: 5vh;
+    margin: 0;
+    padding-bottom: 0.5vh;
+    padding-left: 0.3vw;
+  }
+  .submit {
+    display: inline;
+    height: 3vh;
+    margin: 0;
+  }
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.filtre {
+  margin-top: 50px;
+  border-radius: 30vw;
+  margin-left: 5vw;
+
+  background-color: rgb(226, 226, 226);
+  width: 15vw;
+  height: 8vh;
+  align-items: center;
+  p {
+    color: black;
+    padding-left: 1.5vw;
+  }
+
+  img {
+    padding-top: 2.7vh;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  
+}
+.line{
+  margin-left: 5vw;
+  margin-top: 2vh;
+  width: 90vw;
+  height: 2px;
+  background-color: rgba(83, 83, 83, 0.637);
+}
+.part3{
+  display: flex;
+  select{
+    background-color: transparent;
+    border-radius: 50px;
+    -webkit-appearance:none ;
+    background-image: url("arrowDown.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px  center;
+    
+    background-size: 15px;
+    margin-left: 3vw;
+    padding-left: 2vw;
+    width: 12vw;
+    height: 8vh;
+    margin-top: 3vh;
+    }
+}
+.stock{
+  margin-left: 5vw;
+  margin-top: 5vh;
+  font-size: 38;
+}
+.total{
+  margin-left: 52vw;
+  margin-top: 5vh;
+  font-size: 20;
+}
+@font-face{
+  font-family: 'myfont';
+  src: url("SIMSUN.ttf");
+}
+.part4{
+  display: flex;
+
+  background-color: transparent;
+
+  p{
+    display: inline-block;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    
+    font-size: large;
+    width: 50;
+  }
+  a{
+    display: inline;
+  
+    margin-left: 10vw;
+    img{
+      margin-top: 5vw;
+      width: 20vw;
+      height: 20vw;
+     
+    }
+  }
+  .product{
+    max-width: 30vw;
+  }
+  img.kalp{
+    display: block;
+    width: 1.5vw;
+   height: 1.5vw;
+    margin: 0;
+    float: right;
+    padding-top: 2.1vw;
+    padding-right: 0.2vw;
+  
+    
+  }
+}
+.space{
+  display: block;
+  height: 50vh;
+  width: 100vw;
+  margin-bottom: 10vw;
+}
